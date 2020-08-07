@@ -155,6 +155,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.data.mode=concurrent
 
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.vendor.data.iwlan.enable=true \
+     ro.telephony.iwlan_operation_mode=legacy
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true \
